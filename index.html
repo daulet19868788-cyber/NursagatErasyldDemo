@@ -1,0 +1,193 @@
+<!--
+SaaS High-Conversion Landing (Davlet)
+Created to be a ready-to-use demo landing page you can attach to your Upwork proposal.
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Davlet — Smart analytics. Clear growth.</title>
+  <meta name="description" content="Davlet is an analytics tool that helps teams understand user behavior and make data-driven decisions. Fast setup, HubSpot integration, and actionable dashboards.">
+  <meta name="keywords" content="Davlet analytics, SaaS analytics, HubSpot integration, conversion optimization">
+  <link rel="canonical" href="https://yourdomain.com/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Davlet — Smart analytics. Clear growth.">
+  <meta property="og:description" content="Understand users faster. Turn insights into action with Davlet.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:image" content="https://yourdomain.com/og-image.png">
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Davlet",
+    "url": "https://yourdomain.com/",
+    "description": "Analytics for product teams. HubSpot-ready forms, fast dashboards, and actionable metrics.",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {"@type":"Offer","price":"0.00","priceCurrency":"USD"}
+  }
+  </script>
+
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#6ee7b7;--muted:#94a3b8;--glass:rgba(255,255,255,0.03);--radius:12px;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#071022 0%, #071a2a 100%);color:#e6eef6;line-height:1.45}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .logo{display:flex;align-items:center;gap:10px}
+    .logo img{height:42px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:36px 0}
+    .kicker{display:inline-block;background:var(--glass);padding:6px 10px;border-radius:999px;color:var(--accent);font-weight:700;font-size:13px}
+    h1{font-size:38px;margin:12px 0;color:#fff}
+    p.lead{color:var(--muted);font-size:17px;margin-bottom:18px}
+    .cta-row{display:flex;gap:12px;align-items:center}
+    .btn{background:linear-gradient(90deg,var(--accent),#34d399);border:none;color:#042023;padding:12px 18px;border-radius:10px;font-weight:700;cursor:pointer}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--accent)}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:22px;border-radius:14px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .feature{background:var(--card);padding:14px;border-radius:10px}
+    .right-rail{position:relative}
+    .form-wrap{background:linear-gradient(180deg,#061425,#081827);padding:18px;border-radius:12px}
+    .muted{color:var(--muted)}
+    .logos{display:flex;gap:14px;align-items:center;margin:22px 0}
+    .logos img{height:28px;opacity:0.9}
+    .testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .testimonial{background:var(--glass);padding:16px;border-radius:10px;color:var(--muted)}
+    .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .price-card{background:linear-gradient(180deg,#071226,#061220);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .price-card.recommended{box-shadow:0 12px 40px rgba(17,220,146,0.06);border:1px solid rgba(110,231,183,0.12)}
+    footer{margin-top:40px;padding:28px 0;border-top:1px solid rgba(255,255,255,0.03);color:var(--muted)}
+
+    /* Responsive */
+    @media(max-width:980px){.hero{grid-template-columns:1fr}.features{grid-template-columns:repeat(2,1fr)}.testimonials{grid-template-columns:1fr}.pricing{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><img src="https://via.placeholder.com/160x40?text=Davlet" alt="Davlet Logo"><strong>Davlet</strong></div>
+      <nav class="muted"><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#testimonials">Reviews</a><a href="#contact">Contact</a></nav>
+    </header>
+
+    <main class="hero">
+      <section>
+        <span class="kicker">Analytics · Fast setup · HubSpot</span>
+        <h1>Smart analytics. Clear growth.</h1>
+        <p class="lead">Davlet gives product teams clear, actionable analytics without the complexity. Capture leads, track funnels, and measure experiments — all in one dashboard.</p>
+        <div class="cta-row">
+          <button class="btn" onclick="document.getElementById('lead-form').scrollIntoView({behavior:'smooth'})">Start free trial</button>
+          <button class="btn ghost" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">See features</button>
+        </div>
+
+        <div class="logos" aria-hidden>
+          <img src="https://via.placeholder.com/90x28?text=Logo+1" alt="">
+          <img src="https://via.placeholder.com/90x28?text=Logo+2" alt="">
+          <img src="https://via.placeholder.com/90x28?text=Logo+3" alt="">
+          <img src="https://via.placeholder.com/90x28?text=Logo+4" alt="">
+        </div>
+
+        <div id="features" class="features">
+          <div class="feature card"><strong>Fast Insights</strong><div class="muted">Real-time dashboards, easy filters.</div></div>
+          <div class="feature card"><strong>HubSpot-ready</strong><div class="muted">Embed forms and send leads directly to your CRM.</div></div>
+          <div class="feature card"><strong>Actionable Funnels</strong><div class="muted">Track user journeys and spot drop-offs.</div></div>
+        </div>
+
+      </section>
+
+      <aside class="right-rail">
+        <div class="card form-wrap" id="lead-form" aria-labelledby="form-heading">
+          <h3 id="form-heading">Get a free trial</h3>
+          <p class="muted">No credit card required. We’ll set up your HubSpot form integrations.</p>
+
+          <!-- HUBSPOT FORM PLACEHOLDER - replace the below div with your HubSpot embed script -->
+          <div style="margin-top:10px">
+            <form onsubmit="event.preventDefault();alert('Demo form submitted — replace with HubSpot embed');" aria-label="Lead form">
+              <label class="muted" style="display:block;margin-bottom:6px">Full name</label>
+              <input type="text" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;margin-bottom:8px">
+              <label class="muted" style="display:block;margin-bottom:6px">Work email</label>
+              <input type="email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;margin-bottom:12px">
+              <button class="btn" style="width:100%">Get started</button>
+            </form>
+          </div>
+
+          <p class="muted" style="margin-top:12px;font-size:13px">Trusted by teams at startups and enterprises.</p>
+        </div>
+      </aside>
+    </main>
+
+    <section id="testimonials">
+      <h2 style="margin-top:28px">What customers say</h2>
+      <div class="testimonials">
+        <div class="testimonial card"><strong>Easy to use</strong><div class="muted">"We set up dashboards in hours and started improving conversions almost immediately." — Product Manager, Startup</div></div>
+        <div class="testimonial card"><strong>Great support</strong><div class="muted">"The team helped integrate HubSpot forms and data flow in a day." — Head of Growth</div></div>
+        <div class="testimonial card"><strong>Actionable</strong><div class="muted">"Funnels revealed points where we were losing users, saving us tens of thousands." — VP Product</div></div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2 style="margin-top:28px">Pricing</h2>
+      <p class="muted">Transparent plans — upgrade when you need more seats or data retention.</p>
+      <div class="pricing">
+        <div class="price-card card">
+          <h3>Starter</h3>
+          <p class="muted">$29 / month</p>
+          <ul class="muted">
+            <li>Up to 5k events / month</li>
+            <li>Basic dashboards</li>
+            <li>HubSpot forms</li>
+          </ul>
+          <button class="btn" style="margin-top:12px">Start free</button>
+        </div>
+
+        <div class="price-card recommended card">
+          <h3>Growth</h3>
+          <p style="font-size:18px;font-weight:800">$99 / month</p>
+          <ul class="muted">
+            <li>Up to 100k events / month</li>
+            <li>Advanced funnels & cohorts</li>
+            <li>Priority support</li>
+          </ul>
+          <button class="btn" style="margin-top:12px">Start free</button>
+        </div>
+
+        <div class="price-card card">
+          <h3>Enterprise</h3>
+          <p class="muted">Custom pricing</p>
+          <ul class="muted">
+            <li>Unlimited events</li>
+            <li>Dedicated onboarding</li>
+            <li>SLAs & SSO</li>
+          </ul>
+          <button class="btn" style="margin-top:12px">Contact sales</button>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <strong>Davlet</strong>
+          <div class="muted">Smart analytics. Clear growth. · <a href="#pricing" style="color:var(--accent);text-decoration:none">Pricing</a> · <a href="#contact" style="color:var(--accent);text-decoration:none">Contact</a></div>
+        </div>
+        <div class="muted">© Davlet — All rights reserved.</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (function(){
+      document.querySelectorAll('a[href^="#"]').forEach(function(a){
+        a.addEventListener('click',function(e){
+          e.preventDefault();var id=this.getAttribute('href').slice(1);var el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth'});
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
